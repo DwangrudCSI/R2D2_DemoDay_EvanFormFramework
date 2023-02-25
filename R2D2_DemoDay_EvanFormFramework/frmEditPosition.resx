@@ -1,0 +1,3783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdSetAsCopySource.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdSetAsCopySource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 169</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdSetAsCopySource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdSetAsCopySource.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdSetAsCopySource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 38</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdSetAsCopySource.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="cmdSetAsCopySource.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;cmdSetAsCopySource.Name" xml:space="preserve">
+    <value>cmdSetAsCopySource</value>
+  </data>
+  <data name="&gt;&gt;cmdSetAsCopySource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdSetAsCopySource.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdSetAsCopySource.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdCopyFromSource.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdCopyFromSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 169</value>
+  </data>
+  <data name="cmdCopyFromSource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdCopyFromSource.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdCopyFromSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 40</value>
+  </data>
+  <data name="cmdCopyFromSource.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="cmdCopyFromSource.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="&gt;&gt;cmdCopyFromSource.Name" xml:space="preserve">
+    <value>cmdCopyFromSource</value>
+  </data>
+  <data name="&gt;&gt;cmdCopyFromSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCopyFromSource.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdCopyFromSource.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdIsReachable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdIsReachable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 169</value>
+  </data>
+  <data name="cmdIsReachable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdIsReachable.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdIsReachable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <data name="cmdIsReachable.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="cmdIsReachable.Text" xml:space="preserve">
+    <value>Reach?</value>
+  </data>
+  <data name="&gt;&gt;cmdIsReachable.Name" xml:space="preserve">
+    <value>cmdIsReachable</value>
+  </data>
+  <data name="&gt;&gt;cmdIsReachable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdIsReachable.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdIsReachable.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 169</value>
+  </data>
+  <data name="cmdUpdate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdUpdate.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <data name="cmdUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdate.Name" xml:space="preserve">
+    <value>cmdUpdate</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmdRefresh.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 120</value>
+  </data>
+  <data name="cmdRefresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdRefresh.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <data name="cmdRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="cmdRefresh.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh.Name" xml:space="preserve">
+    <value>cmdRefresh</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtId.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="txtId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 34</value>
+  </data>
+  <data name="txtId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtId.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtId.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="txtId.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="txtId.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtId.Name" xml:space="preserve">
+    <value>txtId</value>
+  </data>
+  <data name="&gt;&gt;txtId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtId.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmdUninit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdUninit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 120</value>
+  </data>
+  <data name="cmdUninit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdUninit.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdUninit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <data name="cmdUninit.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="cmdUninit.Text" xml:space="preserve">
+    <value>Uninit</value>
+  </data>
+  <data name="&gt;&gt;cmdUninit.Name" xml:space="preserve">
+    <value>cmdUninit</value>
+  </data>
+  <data name="&gt;&gt;cmdUninit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdUninit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdUninit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmdRecord.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 120</value>
+  </data>
+  <data name="cmdRecord.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdRecord.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <data name="cmdRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="cmdRecord.Text" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="&gt;&gt;cmdRecord.Name" xml:space="preserve">
+    <value>cmdRecord</value>
+  </data>
+  <data name="&gt;&gt;cmdRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdRecord.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdRecord.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmdMoveto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdMoveto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 120</value>
+  </data>
+  <data name="cmdMoveto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdMoveto.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdMoveto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <data name="cmdMoveto.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="cmdMoveto.Text" xml:space="preserve">
+    <value>Moveto</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveto.Name" xml:space="preserve">
+    <value>cmdMoveto</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveto.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmdInv.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdInv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 169</value>
+  </data>
+  <data name="cmdInv.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdInv.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdInv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <data name="cmdInv.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="cmdInv.Text" xml:space="preserve">
+    <value>Invert</value>
+  </data>
+  <data name="&gt;&gt;cmdInv.Name" xml:space="preserve">
+    <value>cmdInv</value>
+  </data>
+  <data name="&gt;&gt;cmdInv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdInv.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdInv.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtToolNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtToolNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 46</value>
+  </data>
+  <data name="txtToolNum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtToolNum.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtToolNum.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtToolNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="txtToolNum.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="txtToolNum.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtToolNum.Name" xml:space="preserve">
+    <value>txtToolNum</value>
+  </data>
+  <data name="&gt;&gt;txtToolNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtToolNum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtToolNum.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtFrameNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtFrameNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 112</value>
+  </data>
+  <data name="txtFrameNum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtFrameNum.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtFrameNum.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtFrameNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="txtFrameNum.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="txtFrameNum.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtFrameNum.Name" xml:space="preserve">
+    <value>txtFrameNum</value>
+  </data>
+  <data name="&gt;&gt;txtFrameNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFrameNum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtFrameNum.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="optJoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="optJoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 74</value>
+  </data>
+  <data name="optJoint.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="optJoint.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="optJoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 26</value>
+  </data>
+  <data name="optJoint.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="optJoint.Text" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="&gt;&gt;optJoint.Name" xml:space="preserve">
+    <value>optJoint</value>
+  </data>
+  <data name="&gt;&gt;optJoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optJoint.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;optJoint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optXyzWpr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="optXyzWpr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 49</value>
+  </data>
+  <data name="optXyzWpr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="optXyzWpr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="optXyzWpr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 26</value>
+  </data>
+  <data name="optXyzWpr.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="optXyzWpr.Text" xml:space="preserve">
+    <value>XyzWpr</value>
+  </data>
+  <data name="&gt;&gt;optXyzWpr.Name" xml:space="preserve">
+    <value>optXyzWpr</value>
+  </data>
+  <data name="&gt;&gt;optXyzWpr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optXyzWpr.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;optXyzWpr.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optTransform.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="optTransform.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="optTransform.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="optTransform.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="optTransform.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 26</value>
+  </data>
+  <data name="optTransform.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="optTransform.Text" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="&gt;&gt;optTransform.Name" xml:space="preserve">
+    <value>optTransform</value>
+  </data>
+  <data name="&gt;&gt;optTransform.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optTransform.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;optTransform.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblWithExtAxes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblWithExtAxes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 98</value>
+  </data>
+  <data name="lblWithExtAxes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblWithExtAxes.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblWithExtAxes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 26</value>
+  </data>
+  <data name="lblWithExtAxes.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="lblWithExtAxes.Text" xml:space="preserve">
+    <value> Extended Axes</value>
+  </data>
+  <data name="&gt;&gt;lblWithExtAxes.Name" xml:space="preserve">
+    <value>lblWithExtAxes</value>
+  </data>
+  <data name="&gt;&gt;lblWithExtAxes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWithExtAxes.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;lblWithExtAxes.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Frame1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="Frame1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 15</value>
+  </data>
+  <data name="Frame1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="Frame1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Frame1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Frame1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 131</value>
+  </data>
+  <data name="Frame1.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="Frame1.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;Frame1.Name" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Frame1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Frame1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtComment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 71</value>
+  </data>
+  <data name="txtComment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtComment.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtComment.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 26</value>
+  </data>
+  <data name="txtComment.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;txtComment.Name" xml:space="preserve">
+    <value>txtComment</value>
+  </data>
+  <data name="&gt;&gt;txtComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtComment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtComment.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="Label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 26</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblFrameNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblFrameNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 88</value>
+  </data>
+  <data name="lblFrameNum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblFrameNum.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblFrameNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="lblFrameNum.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="lblFrameNum.Text" xml:space="preserve">
+    <value>FrameNum</value>
+  </data>
+  <data name="&gt;&gt;lblFrameNum.Name" xml:space="preserve">
+    <value>lblFrameNum</value>
+  </data>
+  <data name="&gt;&gt;lblFrameNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFrameNum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFrameNum.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblToolNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblToolNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 22</value>
+  </data>
+  <data name="lblToolNum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblToolNum.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblToolNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="lblToolNum.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="lblToolNum.Text" xml:space="preserve">
+    <value>ToolNum</value>
+  </data>
+  <data name="&gt;&gt;lblToolNum.Name" xml:space="preserve">
+    <value>lblToolNum</value>
+  </data>
+  <data name="&gt;&gt;lblToolNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblToolNum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblToolNum.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblComment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 46</value>
+  </data>
+  <data name="lblComment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblComment.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="lblComment.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="lblComment.Text" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="&gt;&gt;lblComment.Name" xml:space="preserve">
+    <value>lblComment</value>
+  </data>
+  <data name="&gt;&gt;lblComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblComment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblComment.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="_lblStatic_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 46</value>
+  </data>
+  <data name="_lblStatic_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="_lblStatic_0.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_lblStatic_0.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="_lblStatic_0.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_0.Name" xml:space="preserve">
+    <value>_lblStatic_0</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_0.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_lblStatic_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 46</value>
+  </data>
+  <data name="_lblStatic_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="_lblStatic_1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="_lblStatic_1.Text" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="_lblStatic_1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_1.Name" xml:space="preserve">
+    <value>_lblStatic_1</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_1.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_lblStatic_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 46</value>
+  </data>
+  <data name="_lblStatic_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="_lblStatic_2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="_lblStatic_2.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="_lblStatic_2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_2.Name" xml:space="preserve">
+    <value>_lblStatic_2</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_2.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_lblStatic_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 46</value>
+  </data>
+  <data name="_lblStatic_3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="_lblStatic_3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="_lblStatic_3.Text" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="_lblStatic_3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_3.Name" xml:space="preserve">
+    <value>_lblStatic_3</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_3.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_lblStatic_5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 197</value>
+  </data>
+  <data name="_lblStatic_5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="_lblStatic_5.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="_lblStatic_5.Text" xml:space="preserve">
+    <value>Config String</value>
+  </data>
+  <data name="_lblStatic_5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_5.Name" xml:space="preserve">
+    <value>_lblStatic_5</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_5.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtN_0.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtN_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtN_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 65</value>
+  </data>
+  <data name="txtN_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtN_0.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtN_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtN_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtN_0.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtN_0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtN_0.Name" xml:space="preserve">
+    <value>txtN_0</value>
+  </data>
+  <data name="&gt;&gt;txtN_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtN_0.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtN_0.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtN_1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtN_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtN_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 102</value>
+  </data>
+  <data name="txtN_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtN_1.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtN_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtN_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtN_1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtN_1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtN_1.Name" xml:space="preserve">
+    <value>txtN_1</value>
+  </data>
+  <data name="&gt;&gt;txtN_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtN_1.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtN_1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtN_2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtN_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtN_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 138</value>
+  </data>
+  <data name="txtN_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtN_2.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtN_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtN_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtN_2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtN_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtN_2.Name" xml:space="preserve">
+    <value>txtN_2</value>
+  </data>
+  <data name="&gt;&gt;txtN_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtN_2.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtN_2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtO_0.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtO_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtO_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 65</value>
+  </data>
+  <data name="txtO_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtO_0.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtO_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtO_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtO_0.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtO_0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtO_0.Name" xml:space="preserve">
+    <value>txtO_0</value>
+  </data>
+  <data name="&gt;&gt;txtO_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtO_0.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtO_0.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtO_1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtO_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtO_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 102</value>
+  </data>
+  <data name="txtO_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtO_1.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtO_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtO_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtO_1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtO_1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtO_1.Name" xml:space="preserve">
+    <value>txtO_1</value>
+  </data>
+  <data name="&gt;&gt;txtO_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtO_1.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtO_1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtO_2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtO_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtO_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 138</value>
+  </data>
+  <data name="txtO_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtO_2.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtO_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtO_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtO_2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtO_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtO_2.Name" xml:space="preserve">
+    <value>txtO_2</value>
+  </data>
+  <data name="&gt;&gt;txtO_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtO_2.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtO_2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtA_0.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtA_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtA_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 65</value>
+  </data>
+  <data name="txtA_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtA_0.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtA_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtA_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtA_0.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtA_0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtA_0.Name" xml:space="preserve">
+    <value>txtA_0</value>
+  </data>
+  <data name="&gt;&gt;txtA_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtA_0.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtA_0.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtA_1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtA_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtA_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 102</value>
+  </data>
+  <data name="txtA_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtA_1.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtA_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtA_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtA_1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtA_1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtA_1.Name" xml:space="preserve">
+    <value>txtA_1</value>
+  </data>
+  <data name="&gt;&gt;txtA_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtA_1.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtA_1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtA_2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtA_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtA_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 138</value>
+  </data>
+  <data name="txtA_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtA_2.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtA_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtA_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtA_2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="txtA_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtA_2.Name" xml:space="preserve">
+    <value>txtA_2</value>
+  </data>
+  <data name="&gt;&gt;txtA_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtA_2.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtA_2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtL_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtL_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 65</value>
+  </data>
+  <data name="txtL_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtL_0.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtL_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtL_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtL_0.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="txtL_0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtL_0.Name" xml:space="preserve">
+    <value>txtL_0</value>
+  </data>
+  <data name="&gt;&gt;txtL_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtL_0.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtL_0.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtL_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtL_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 102</value>
+  </data>
+  <data name="txtL_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtL_1.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtL_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtL_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtL_1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txtL_1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtL_1.Name" xml:space="preserve">
+    <value>txtL_1</value>
+  </data>
+  <data name="&gt;&gt;txtL_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtL_1.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtL_1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtL_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtL_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 138</value>
+  </data>
+  <data name="txtL_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtL_2.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtL_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtL_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 26</value>
+  </data>
+  <data name="txtL_2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="txtL_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtL_2.Name" xml:space="preserve">
+    <value>txtL_2</value>
+  </data>
+  <data name="&gt;&gt;txtL_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtL_2.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtL_2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtTransConfig.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 222</value>
+  </data>
+  <data name="txtTransConfig.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransConfig.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransConfig.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 26</value>
+  </data>
+  <data name="txtTransConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;txtTransConfig.Name" xml:space="preserve">
+    <value>txtTransConfig</value>
+  </data>
+  <data name="&gt;&gt;txtTransConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransConfig.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;txtTransConfig.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtTransExtAxes_8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransExtAxes_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 98</value>
+  </data>
+  <data name="txtTransExtAxes_8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransExtAxes_8.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransExtAxes_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtTransExtAxes_8.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="txtTransExtAxes_8.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtTransExtAxes_8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_8.Name" xml:space="preserve">
+    <value>txtTransExtAxes_8</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_8.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransExtAxes_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 62</value>
+  </data>
+  <data name="txtTransExtAxes_7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransExtAxes_7.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransExtAxes_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtTransExtAxes_7.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="txtTransExtAxes_7.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtTransExtAxes_7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_7.Name" xml:space="preserve">
+    <value>txtTransExtAxes_7</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_7.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtTransExtAxes_6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransExtAxes_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 25</value>
+  </data>
+  <data name="txtTransExtAxes_6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransExtAxes_6.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransExtAxes_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtTransExtAxes_6.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="txtTransExtAxes_6.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtTransExtAxes_6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_6.Name" xml:space="preserve">
+    <value>txtTransExtAxes_6</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_6.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtTransExtAxes_5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransExtAxes_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 98</value>
+  </data>
+  <data name="txtTransExtAxes_5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransExtAxes_5.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransExtAxes_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtTransExtAxes_5.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="txtTransExtAxes_5.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtTransExtAxes_5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_5.Name" xml:space="preserve">
+    <value>txtTransExtAxes_5</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_5.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtTransExtAxes_4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransExtAxes_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 62</value>
+  </data>
+  <data name="txtTransExtAxes_4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransExtAxes_4.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransExtAxes_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtTransExtAxes_4.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="txtTransExtAxes_4.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtTransExtAxes_4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_4.Name" xml:space="preserve">
+    <value>txtTransExtAxes_4</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_4.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtTransExtAxes_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransExtAxes_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 25</value>
+  </data>
+  <data name="txtTransExtAxes_3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransExtAxes_3.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransExtAxes_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtTransExtAxes_3.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="txtTransExtAxes_3.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtTransExtAxes_3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_3.Name" xml:space="preserve">
+    <value>txtTransExtAxes_3</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_3.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtTransExtAxes_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransExtAxes_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="txtTransExtAxes_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransExtAxes_2.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransExtAxes_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtTransExtAxes_2.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="txtTransExtAxes_2.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtTransExtAxes_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_2.Name" xml:space="preserve">
+    <value>txtTransExtAxes_2</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_2.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtTransExtAxes_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransExtAxes_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 62</value>
+  </data>
+  <data name="txtTransExtAxes_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransExtAxes_1.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransExtAxes_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtTransExtAxes_1.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="txtTransExtAxes_1.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtTransExtAxes_1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_1.Name" xml:space="preserve">
+    <value>txtTransExtAxes_1</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_1.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtTransExtAxes_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtTransExtAxes_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="txtTransExtAxes_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtTransExtAxes_0.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtTransExtAxes_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTransExtAxes_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtTransExtAxes_0.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="txtTransExtAxes_0.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtTransExtAxes_0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_0.Name" xml:space="preserve">
+    <value>txtTransExtAxes_0</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_0.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;txtTransExtAxes_0.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="Label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 26</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="frmTransExtAxes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="frmTransExtAxes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 185</value>
+  </data>
+  <data name="frmTransExtAxes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="frmTransExtAxes.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="frmTransExtAxes.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="frmTransExtAxes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 134</value>
+  </data>
+  <data name="frmTransExtAxes.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="frmTransExtAxes.Text" xml:space="preserve">
+    <value>Extended axes</value>
+  </data>
+  <data name="&gt;&gt;frmTransExtAxes.Name" xml:space="preserve">
+    <value>frmTransExtAxes</value>
+  </data>
+  <data name="&gt;&gt;frmTransExtAxes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frmTransExtAxes.Parent" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;frmTransExtAxes.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="TransformTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 18</value>
+  </data>
+  <data name="TransformTab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="TransformTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>678, 335</value>
+  </data>
+  <data name="TransformTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TransformTab.Text" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="&gt;&gt;TransformTab.Name" xml:space="preserve">
+    <value>TransformTab</value>
+  </data>
+  <data name="&gt;&gt;TransformTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TransformTab.Parent" xml:space="preserve">
+    <value>tabPos</value>
+  </data>
+  <data name="&gt;&gt;TransformTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_lblStatic_6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="_lblStatic_6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="_lblStatic_6.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="_lblStatic_6.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="_lblStatic_6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_6.Name" xml:space="preserve">
+    <value>_lblStatic_6</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_6.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_lblStatic_7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 46</value>
+  </data>
+  <data name="_lblStatic_7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="_lblStatic_7.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="_lblStatic_7.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="_lblStatic_7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_7.Name" xml:space="preserve">
+    <value>_lblStatic_7</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_7.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_lblStatic_8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 46</value>
+  </data>
+  <data name="_lblStatic_8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="_lblStatic_8.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="_lblStatic_8.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="_lblStatic_8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_8.Name" xml:space="preserve">
+    <value>_lblStatic_8</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_8.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_lblStatic_9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 120</value>
+  </data>
+  <data name="_lblStatic_9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="_lblStatic_9.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="_lblStatic_9.Text" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="_lblStatic_9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_9.Name" xml:space="preserve">
+    <value>_lblStatic_9</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_9.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_lblStatic_10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 120</value>
+  </data>
+  <data name="_lblStatic_10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_10.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="_lblStatic_10.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="_lblStatic_10.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="_lblStatic_10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_10.Name" xml:space="preserve">
+    <value>_lblStatic_10</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_10.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_lblStatic_11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 120</value>
+  </data>
+  <data name="_lblStatic_11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="_lblStatic_11.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="_lblStatic_11.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="_lblStatic_11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_11.Name" xml:space="preserve">
+    <value>_lblStatic_11</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_11.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_lblStatic_25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblStatic_25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 86</value>
+  </data>
+  <data name="_lblStatic_25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblStatic_25.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblStatic_25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="_lblStatic_25.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="_lblStatic_25.Text" xml:space="preserve">
+    <value>Config String</value>
+  </data>
+  <data name="_lblStatic_25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_25.Name" xml:space="preserve">
+    <value>_lblStatic_25</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_25.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;_lblStatic_25.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtXyzWprConfig.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzWprConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 123</value>
+  </data>
+  <data name="txtXyzWprConfig.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzWprConfig.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzWprConfig.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzWprConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 26</value>
+  </data>
+  <data name="txtXyzWprConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWprConfig.Name" xml:space="preserve">
+    <value>txtXyzWprConfig</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWprConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWprConfig.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWprConfig.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtXyzWpr_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzWpr_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 74</value>
+  </data>
+  <data name="txtXyzWpr_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzWpr_0.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzWpr_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzWpr_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="txtXyzWpr_0.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="txtXyzWpr_0.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzWpr_0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_0.Name" xml:space="preserve">
+    <value>txtXyzWpr_0</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_0.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_0.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtXyzWpr_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzWpr_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 74</value>
+  </data>
+  <data name="txtXyzWpr_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzWpr_1.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzWpr_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzWpr_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="txtXyzWpr_1.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="txtXyzWpr_1.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzWpr_1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_1.Name" xml:space="preserve">
+    <value>txtXyzWpr_1</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_1.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtXyzWpr_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzWpr_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 74</value>
+  </data>
+  <data name="txtXyzWpr_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzWpr_2.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzWpr_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzWpr_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="txtXyzWpr_2.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="txtXyzWpr_2.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzWpr_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_2.Name" xml:space="preserve">
+    <value>txtXyzWpr_2</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_2.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtXyzWpr_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzWpr_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 148</value>
+  </data>
+  <data name="txtXyzWpr_3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzWpr_3.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzWpr_3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzWpr_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="txtXyzWpr_3.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtXyzWpr_3.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzWpr_3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_3.Name" xml:space="preserve">
+    <value>txtXyzWpr_3</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_3.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtXyzWpr_4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzWpr_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 148</value>
+  </data>
+  <data name="txtXyzWpr_4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzWpr_4.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzWpr_4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzWpr_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="txtXyzWpr_4.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="txtXyzWpr_4.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzWpr_4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_4.Name" xml:space="preserve">
+    <value>txtXyzWpr_4</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_4.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtXyzWpr_5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzWpr_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 148</value>
+  </data>
+  <data name="txtXyzWpr_5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzWpr_5.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzWpr_5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzWpr_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="txtXyzWpr_5.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="txtXyzWpr_5.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzWpr_5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_5.Name" xml:space="preserve">
+    <value>txtXyzWpr_5</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_5.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;txtXyzWpr_5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtXyzExtAxes_8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzExtAxes_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 98</value>
+  </data>
+  <data name="txtXyzExtAxes_8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzExtAxes_8.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzExtAxes_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtXyzExtAxes_8.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="txtXyzExtAxes_8.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzExtAxes_8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_8.Name" xml:space="preserve">
+    <value>txtXyzExtAxes_8</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_8.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzExtAxes_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 62</value>
+  </data>
+  <data name="txtXyzExtAxes_7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzExtAxes_7.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzExtAxes_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtXyzExtAxes_7.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="txtXyzExtAxes_7.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzExtAxes_7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_7.Name" xml:space="preserve">
+    <value>txtXyzExtAxes_7</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_7.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtXyzExtAxes_6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzExtAxes_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 25</value>
+  </data>
+  <data name="txtXyzExtAxes_6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzExtAxes_6.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzExtAxes_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtXyzExtAxes_6.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="txtXyzExtAxes_6.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzExtAxes_6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_6.Name" xml:space="preserve">
+    <value>txtXyzExtAxes_6</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_6.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtXyzExtAxes_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzExtAxes_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="txtXyzExtAxes_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzExtAxes_0.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzExtAxes_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtXyzExtAxes_0.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="txtXyzExtAxes_0.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzExtAxes_0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_0.Name" xml:space="preserve">
+    <value>txtXyzExtAxes_0</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_0.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_0.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtXyzExtAxes_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzExtAxes_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 62</value>
+  </data>
+  <data name="txtXyzExtAxes_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzExtAxes_1.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzExtAxes_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtXyzExtAxes_1.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="txtXyzExtAxes_1.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzExtAxes_1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_1.Name" xml:space="preserve">
+    <value>txtXyzExtAxes_1</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_1.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtXyzExtAxes_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzExtAxes_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="txtXyzExtAxes_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzExtAxes_2.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzExtAxes_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtXyzExtAxes_2.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="txtXyzExtAxes_2.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzExtAxes_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_2.Name" xml:space="preserve">
+    <value>txtXyzExtAxes_2</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_2.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtXyzExtAxes_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzExtAxes_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 25</value>
+  </data>
+  <data name="txtXyzExtAxes_3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzExtAxes_3.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzExtAxes_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtXyzExtAxes_3.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="txtXyzExtAxes_3.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzExtAxes_3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_3.Name" xml:space="preserve">
+    <value>txtXyzExtAxes_3</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_3.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtXyzExtAxes_4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzExtAxes_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 62</value>
+  </data>
+  <data name="txtXyzExtAxes_4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzExtAxes_4.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzExtAxes_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtXyzExtAxes_4.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="txtXyzExtAxes_4.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzExtAxes_4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_4.Name" xml:space="preserve">
+    <value>txtXyzExtAxes_4</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_4.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtXyzExtAxes_5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtXyzExtAxes_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 98</value>
+  </data>
+  <data name="txtXyzExtAxes_5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtXyzExtAxes_5.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtXyzExtAxes_5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtXyzExtAxes_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 26</value>
+  </data>
+  <data name="txtXyzExtAxes_5.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="txtXyzExtAxes_5.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtXyzExtAxes_5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_5.Name" xml:space="preserve">
+    <value>txtXyzExtAxes_5</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_5.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;txtXyzExtAxes_5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblnone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblnone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 37</value>
+  </data>
+  <data name="lblnone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblnone.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblnone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 26</value>
+  </data>
+  <data name="lblnone.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="lblnone.Text" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="lblnone.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblnone.Name" xml:space="preserve">
+    <value>lblnone</value>
+  </data>
+  <data name="&gt;&gt;lblnone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblnone.Parent" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;lblnone.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="frmExtAxis.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="frmExtAxis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 185</value>
+  </data>
+  <data name="frmExtAxis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="frmExtAxis.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="frmExtAxis.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="frmExtAxis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 145</value>
+  </data>
+  <data name="frmExtAxis.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="frmExtAxis.Text" xml:space="preserve">
+    <value>Extended axes</value>
+  </data>
+  <data name="&gt;&gt;frmExtAxis.Name" xml:space="preserve">
+    <value>frmExtAxis</value>
+  </data>
+  <data name="&gt;&gt;frmExtAxis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frmExtAxis.Parent" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;frmExtAxis.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="XyzWprTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 18</value>
+  </data>
+  <data name="XyzWprTab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="XyzWprTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>678, 335</value>
+  </data>
+  <data name="XyzWprTab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="XyzWprTab.Text" xml:space="preserve">
+    <value>XyzWpr</value>
+  </data>
+  <data name="&gt;&gt;XyzWprTab.Name" xml:space="preserve">
+    <value>XyzWprTab</value>
+  </data>
+  <data name="&gt;&gt;XyzWprTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XyzWprTab.Parent" xml:space="preserve">
+    <value>tabPos</value>
+  </data>
+  <data name="&gt;&gt;XyzWprTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblJointNum_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="lblJointNum_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 111</value>
+  </data>
+  <data name="lblJointNum_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNum_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNum_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 38</value>
+  </data>
+  <data name="lblJointNum_0.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="lblJointNum_0.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblJointNum_0.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_0.Name" xml:space="preserve">
+    <value>lblJointNum_0</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_0.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblJointNum_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="lblJointNum_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 172</value>
+  </data>
+  <data name="lblJointNum_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNum_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNum_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 38</value>
+  </data>
+  <data name="lblJointNum_1.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="lblJointNum_1.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblJointNum_1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_1.Name" xml:space="preserve">
+    <value>lblJointNum_1</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_1.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblJointNum_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="lblJointNum_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 234</value>
+  </data>
+  <data name="lblJointNum_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNum_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNum_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 38</value>
+  </data>
+  <data name="lblJointNum_2.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="lblJointNum_2.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblJointNum_2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_2.Name" xml:space="preserve">
+    <value>lblJointNum_2</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_2.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblJointNum_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="lblJointNum_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 111</value>
+  </data>
+  <data name="lblJointNum_3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNum_3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNum_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 38</value>
+  </data>
+  <data name="lblJointNum_3.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="lblJointNum_3.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblJointNum_3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_3.Name" xml:space="preserve">
+    <value>lblJointNum_3</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_3.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblJointNum_4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="lblJointNum_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 172</value>
+  </data>
+  <data name="lblJointNum_4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNum_4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNum_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 38</value>
+  </data>
+  <data name="lblJointNum_4.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="lblJointNum_4.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblJointNum_4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_4.Name" xml:space="preserve">
+    <value>lblJointNum_4</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_4.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblJointNum_5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="lblJointNum_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 234</value>
+  </data>
+  <data name="lblJointNum_5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNum_5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNum_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 38</value>
+  </data>
+  <data name="lblJointNum_5.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="lblJointNum_5.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblJointNum_5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_5.Name" xml:space="preserve">
+    <value>lblJointNum_5</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_5.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblJointNum_6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="lblJointNum_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 111</value>
+  </data>
+  <data name="lblJointNum_6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNum_6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNum_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 38</value>
+  </data>
+  <data name="lblJointNum_6.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="lblJointNum_6.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblJointNum_6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_6.Name" xml:space="preserve">
+    <value>lblJointNum_6</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_6.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblJointNum_7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="lblJointNum_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 172</value>
+  </data>
+  <data name="lblJointNum_7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNum_7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNum_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 38</value>
+  </data>
+  <data name="lblJointNum_7.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="lblJointNum_7.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblJointNum_7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_7.Name" xml:space="preserve">
+    <value>lblJointNum_7</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_7.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblJointNum_8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="lblJointNum_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 234</value>
+  </data>
+  <data name="lblJointNum_8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNum_8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNum_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 38</value>
+  </data>
+  <data name="lblJointNum_8.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="lblJointNum_8.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblJointNum_8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_8.Name" xml:space="preserve">
+    <value>lblJointNum_8</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_8.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNum_8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtJoint_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="txtJoint_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 111</value>
+  </data>
+  <data name="txtJoint_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtJoint_0.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtJoint_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtJoint_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 35</value>
+  </data>
+  <data name="txtJoint_0.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="txtJoint_0.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtJoint_0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_0.Name" xml:space="preserve">
+    <value>txtJoint_0</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_0.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_0.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtJoint_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="txtJoint_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 172</value>
+  </data>
+  <data name="txtJoint_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtJoint_1.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtJoint_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtJoint_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 35</value>
+  </data>
+  <data name="txtJoint_1.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="txtJoint_1.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtJoint_1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_1.Name" xml:space="preserve">
+    <value>txtJoint_1</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_1.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtJoint_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="txtJoint_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 234</value>
+  </data>
+  <data name="txtJoint_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtJoint_2.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtJoint_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtJoint_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 35</value>
+  </data>
+  <data name="txtJoint_2.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="txtJoint_2.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtJoint_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_2.Name" xml:space="preserve">
+    <value>txtJoint_2</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_2.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtJoint_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="txtJoint_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 111</value>
+  </data>
+  <data name="txtJoint_3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtJoint_3.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtJoint_3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtJoint_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 35</value>
+  </data>
+  <data name="txtJoint_3.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="txtJoint_3.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtJoint_3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_3.Name" xml:space="preserve">
+    <value>txtJoint_3</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_3.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtJoint_4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="txtJoint_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 172</value>
+  </data>
+  <data name="txtJoint_4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtJoint_4.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtJoint_4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtJoint_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 35</value>
+  </data>
+  <data name="txtJoint_4.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="txtJoint_4.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtJoint_4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_4.Name" xml:space="preserve">
+    <value>txtJoint_4</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_4.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtJoint_5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="txtJoint_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 234</value>
+  </data>
+  <data name="txtJoint_5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtJoint_5.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtJoint_5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtJoint_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 35</value>
+  </data>
+  <data name="txtJoint_5.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="txtJoint_5.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtJoint_5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_5.Name" xml:space="preserve">
+    <value>txtJoint_5</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_5.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtJoint_6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="txtJoint_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 111</value>
+  </data>
+  <data name="txtJoint_6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtJoint_6.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtJoint_6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtJoint_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 35</value>
+  </data>
+  <data name="txtJoint_6.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="txtJoint_6.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtJoint_6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_6.Name" xml:space="preserve">
+    <value>txtJoint_6</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_6.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtJoint_7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="txtJoint_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 172</value>
+  </data>
+  <data name="txtJoint_7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtJoint_7.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtJoint_7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtJoint_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 35</value>
+  </data>
+  <data name="txtJoint_7.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="txtJoint_7.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtJoint_7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_7.Name" xml:space="preserve">
+    <value>txtJoint_7</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_7.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_7.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtJoint_8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="txtJoint_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 234</value>
+  </data>
+  <data name="txtJoint_8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtJoint_8.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtJoint_8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtJoint_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 35</value>
+  </data>
+  <data name="txtJoint_8.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="txtJoint_8.Text" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="txtJoint_8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_8.Name" xml:space="preserve">
+    <value>txtJoint_8</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_8.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;txtJoint_8.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblJointNotValid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 13.5pt</value>
+  </data>
+  <data name="lblJointNotValid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 129</value>
+  </data>
+  <data name="lblJointNotValid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblJointNotValid.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJointNotValid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 100</value>
+  </data>
+  <data name="lblJointNotValid.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="lblJointNotValid.Text" xml:space="preserve">
+    <value>Joint values are not valid for this position type.</value>
+  </data>
+  <data name="lblJointNotValid.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblJointNotValid.Name" xml:space="preserve">
+    <value>lblJointNotValid</value>
+  </data>
+  <data name="&gt;&gt;lblJointNotValid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJointNotValid.Parent" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;lblJointNotValid.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="JointTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 18</value>
+  </data>
+  <data name="JointTab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="JointTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>678, 335</value>
+  </data>
+  <data name="JointTab.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="JointTab.Text" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="&gt;&gt;JointTab.Name" xml:space="preserve">
+    <value>JointTab</value>
+  </data>
+  <data name="&gt;&gt;JointTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JointTab.Parent" xml:space="preserve">
+    <value>tabPos</value>
+  </data>
+  <data name="&gt;&gt;JointTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="tabPos.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>42, 14</value>
+  </data>
+  <data name="tabPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 218</value>
+  </data>
+  <data name="tabPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="tabPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>686, 357</value>
+  </data>
+  <data name="tabPos.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;tabPos.Name" xml:space="preserve">
+    <value>tabPos</value>
+  </data>
+  <data name="&gt;&gt;tabPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabPos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 585</value>
+  </data>
+  <data name="cmdOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdOk.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 38</value>
+  </data>
+  <data name="cmdOk.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="cmdOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;cmdOk.Name" xml:space="preserve">
+    <value>cmdOk</value>
+  </data>
+  <data name="&gt;&gt;cmdOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdOk.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>724, 637</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Edit Position</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmEditPosition</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

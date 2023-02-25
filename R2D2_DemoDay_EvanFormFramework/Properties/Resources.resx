@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDS_TP_PROGRAM" xml:space="preserve">
+    <value>TPProgram</value>
+  </data>
+  <data name="IDS_VARS_BYNAME" xml:space="preserve">
+    <value>Select var by name</value>
+  </data>
+  <data name="IDS_START_MODE_CTRL" xml:space="preserve">
+    <value>Controller is running in Controlled start mode</value>
+  </data>
+  <data name="IDS_LOAD_FILE_PROMPT" xml:space="preserve">
+    <value>Enter fully qualified file name:</value>
+  </data>
+  <data name="IDS_TASK_NOT_INITIALIZED" xml:space="preserve">
+    <value>(not initialized)</value>
+  </data>
+  <data name="IDS_GROUPS" xml:space="preserve">
+    <value>groups</value>
+  </data>
+  <data name="IDS_CANT_INV_SELETED" xml:space="preserve">
+    <value>Can't make the selected program invisible</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CS_Transparent_5-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_5-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_SIGNALS" xml:space="preserve">
+    <value>Signals</value>
+  </data>
+  <data name="IDS_TASK_NOT_CREATED" xml:space="preserve">
+    <value>Did not detect the task being created</value>
+  </data>
+  <data name="IDS_TASK_RUNNING" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="IDS_STOP_MONITORING" xml:space="preserve">
+    <value>Stop Monitoring</value>
+  </data>
+  <data name="IDS_TASK_PAUSED" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="IDS_HEARTBEAT_LOST" xml:space="preserve">
+    <value>Heartbeat Lost</value>
+  </data>
+  <data name="CS_Transparent_3-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_3-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CS_Transparent_7-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_7-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CS_Transparent_6-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_6-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_PROGRAM_RUN" xml:space="preserve">
+    <value>FRCProgram.Run</value>
+  </data>
+  <data name="IDS_UNCHECK_READONLY" xml:space="preserve">
+    <value>Uncheck Read Only</value>
+  </data>
+  <data name="IDS_KAREL_PROGRAM" xml:space="preserve">
+    <value>KARELProgram</value>
+  </data>
+  <data name="IDS_THIS_HAS_NUMGROUPS" xml:space="preserve">
+    <value>This robot has </value>
+  </data>
+  <data name="IDS_START_MODE_UNKNOWN" xml:space="preserve">
+    <value>Controller is running in an Unknown start mode</value>
+  </data>
+  <data name="IDS_SET_MAX_TITLE" xml:space="preserve">
+    <value>Alarm Mog Max</value>
+  </data>
+  <data name="CS_TRANSPARENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_TRANSPARENT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CS_TRANSPARENT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_TRANSPARENT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_FRCIOCONFIGS_ADD_ERROR" xml:space="preserve">
+    <value>Error raised fron FRCConfigs.Add method:</value>
+  </data>
+  <data name="IDS_NOTHING_SELECTED" xml:space="preserve">
+    <value>Nothing selected</value>
+  </data>
+  <data name="IDS_FALSE" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="IDS_DID_NOT_SEE_PGM_RUN" xml:space="preserve">
+    <value>Did not see task status = run</value>
+  </data>
+  <data name="IDS_LOAD_FILE_TITLE" xml:space="preserve">
+    <value>Load File</value>
+  </data>
+  <data name="IDS_APP_NAME" xml:space="preserve">
+    <value>FRRobotDemoCSharp - </value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IDS_FIND_INV_PGM" xml:space="preserve">
+    <value>Find an Invisible Program</value>
+  </data>
+  <data name="IDS_REGION_SEARCHED" xml:space="preserve">
+    <value>Specified region has been searched. Start over from the beginning?</value>
+  </data>
+  <data name="IDS_Q_REACHABLE" xml:space="preserve">
+    <value>Reachable?</value>
+  </data>
+  <data name="IDS_NUMBER_OF_FEATURES" xml:space="preserve">
+    <value>Number of Features =</value>
+  </data>
+  <data name="IDS_TOOL_FRAMES" xml:space="preserve">
+    <value>Tool Frames</value>
+  </data>
+  <data name="IDS_CONNECTION_FAILED" xml:space="preserve">
+    <value>Connection Failed</value>
+  </data>
+  <data name="IDS_DISCONNECTED" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="IDS_SELECTING_ROBOT" xml:space="preserve">
+    <value>FRRobotDemoVBNet - Selecting a robot</value>
+  </data>
+  <data name="IDS_DISCONNECTING" xml:space="preserve">
+    <value>Disconnecting</value>
+  </data>
+  <data name="IDS_KAREL_VARIABLES" xml:space="preserve">
+    <value>KARELVariables</value>
+  </data>
+  <data name="IDS_TASK_ABORTING" xml:space="preserve">
+    <value>Aborting</value>
+  </data>
+  <data name="IDS_R_E_S_E_T" xml:space="preserve">
+    <value>R E S E T</value>
+  </data>
+  <data name="IDS_START_MODE_HOT" xml:space="preserve">
+    <value>Controller is running in Hot start mode</value>
+  </data>
+  <data name="IDS_GROUP" xml:space="preserve">
+    <value>group</value>
+  </data>
+  <data name="IDS_START_MODE_INIT" xml:space="preserve">
+    <value>Controller is running in Initial start mode</value>
+  </data>
+  <data name="IDS_START_MONITORING" xml:space="preserve">
+    <value>Start Monitoring</value>
+  </data>
+  <data name="IDS_SET_MAX_PROMPT" xml:space="preserve">
+    <value>Enter a new maximum alarm log size.</value>
+  </data>
+  <data name="IDS_CONNECTING" xml:space="preserve">
+    <value>Connecting</value>
+  </data>
+  <data name="IDS_TASK_ABORTED" xml:space="preserve">
+    <value>Aborted</value>
+  </data>
+  <data name="IDS_AVAILABLE" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="IDS_NOT_FOUND" xml:space="preserve">
+    <value> not found.</value>
+  </data>
+  <data name="SQUARE_TRANSPARENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SQUARE_TRANSPARENT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_START_MODE_COLD" xml:space="preserve">
+    <value>Controller is running in Cold start mode</value>
+  </data>
+  <data name="IDS_TASK_IDLE" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="CS_TRANSPARENT_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_TRANSPARENT_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TASK_STARTING" xml:space="preserve">
+    <value>Starting</value>
+  </data>
+  <data name="IDS_PACKET_INV_TRIGGER" xml:space="preserve">
+    <value>Invalid Trigger value.\nSubSystemCode must be in the range 0 to 255\nRequest code must be in the range 0 to 255\nPacketID must be in the range 0 to 2,000,000,000</value>
+  </data>
+  <data name="CS_Transparent_4-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_4-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_YES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="IDS_CONFIG" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="IDS_PCIF_NOT_INSTALLED" xml:space="preserve">
+    <value>PCIF option not installed</value>
+  </data>
+  <data name="IDS_SCATT_NOT_INITIALIZED" xml:space="preserve">
+    <value>The ScatteredAccess object has not been intialized</value>
+  </data>
+  <data name="IDS_UNEXPECTED_ERROR" xml:space="preserve">
+    <value>Unexpected error -</value>
+  </data>
+  <data name="IDS_NOTHING_CONNECTED" xml:space="preserve">
+    <value>Nothing Connected</value>
+  </data>
+  <data name="IDS_FIRST_LOGICAL_NUM_IS_READONLY" xml:space="preserve">
+    <value>The first locial number cannot be modified.</value>
+  </data>
+  <data name="IDS_POSITION_REGSITERS" xml:space="preserve">
+    <value>Position Registers</value>
+  </data>
+  <data name="IDS_ACTIVE_ALARMS" xml:space="preserve">
+    <value>There are active alarms</value>
+  </data>
+  <data name="CS_Transparent_1-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_1-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_UNINIT" xml:space="preserve">
+    <value>**** Uninitialized *****</value>
+  </data>
+  <data name="IDS_PINGING" xml:space="preserve">
+    <value>Pinging</value>
+  </data>
+  <data name="IDS_Q_REACH" xml:space="preserve">
+    <value>Reach?</value>
+  </data>
+  <data name="CS_Transparent_1-1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_1-1 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_USER_FRAMES" xml:space="preserve">
+    <value>User Frames</value>
+  </data>
+  <data name="IDS_CONNECTED" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="IDS_UNKNOWN" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="IDS_NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="CS_Transparent_9-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_9-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CS_Transparent_8-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_8-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_EDITING" xml:space="preserve">
+    <value>Editing </value>
+  </data>
+  <data name="IDS_SELECT" xml:space="preserve">
+    <value>Select </value>
+  </data>
+  <data name="IDS_CLEAR" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="IDS_NO_FEATURE_NUMBER_DEFINED" xml:space="preserve">
+    <value>The Oder Number text box is empty</value>
+  </data>
+  <data name="IDS_UNAVAILABLE" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="IDS_JOG_FRAMES" xml:space="preserve">
+    <value>Jog Frames</value>
+  </data>
+  <data name="CS_Transparent_2-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_2-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_ENTER_PGM_NAME" xml:space="preserve">
+    <value>Enter the program's name</value>
+  </data>
+  <data name="IDS_TRUE" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="IDS_NO_ACITVE_ALARMS" xml:space="preserve">
+    <value>There are no active alarms</value>
+  </data>
+  <data name="CS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_ENTER_VAR_NAME" xml:space="preserve">
+    <value>Enter a variable name:</value>
+  </data>
+  <data name="CS_Transparent_10-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CS_Transparent_10-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

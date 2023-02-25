@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="fraFeatureList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="lstFeatures.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lstFeatures.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lstFeatures.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lstFeatures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 54</value>
+  </data>
+  <data name="lstFeatures.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lstFeatures.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lstFeatures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 310</value>
+  </data>
+  <data name="lstFeatures.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;lstFeatures.Name" xml:space="preserve">
+    <value>lstFeatures</value>
+  </data>
+  <data name="&gt;&gt;lstFeatures.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstFeatures.Parent" xml:space="preserve">
+    <value>fraFeatureList</value>
+  </data>
+  <data name="&gt;&gt;lstFeatures.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_lblListColumns_0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblListColumns_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 32</value>
+  </data>
+  <data name="_lblListColumns_0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblListColumns_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblListColumns_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="_lblListColumns_0.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="_lblListColumns_0.Text" xml:space="preserve">
+    <value>Order #</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_0.Name" xml:space="preserve">
+    <value>_lblListColumns_0</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_0.Parent" xml:space="preserve">
+    <value>fraFeatureList</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_0.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_lblListColumns_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblListColumns_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 31</value>
+  </data>
+  <data name="_lblListColumns_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblListColumns_1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblListColumns_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="_lblListColumns_1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="_lblListColumns_1.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_1.Name" xml:space="preserve">
+    <value>_lblListColumns_1</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_1.Parent" xml:space="preserve">
+    <value>fraFeatureList</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_lblListColumns_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblListColumns_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 31</value>
+  </data>
+  <data name="_lblListColumns_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblListColumns_2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblListColumns_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="_lblListColumns_2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="_lblListColumns_2.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_2.Name" xml:space="preserve">
+    <value>_lblListColumns_2</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_2.Parent" xml:space="preserve">
+    <value>fraFeatureList</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFeatureCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblFeatureCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblFeatureCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 411</value>
+  </data>
+  <data name="lblFeatureCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblFeatureCount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblFeatureCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 28</value>
+  </data>
+  <data name="lblFeatureCount.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblFeatureCount.Text" xml:space="preserve">
+    <value>Number of Features = </value>
+  </data>
+  <data name="&gt;&gt;lblFeatureCount.Name" xml:space="preserve">
+    <value>lblFeatureCount</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureCount.Parent" xml:space="preserve">
+    <value>fraFeatureList</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="fraFeatureList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="fraFeatureList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 14</value>
+  </data>
+  <data name="fraFeatureList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="fraFeatureList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="fraFeatureList.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="fraFeatureList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>446, 466</value>
+  </data>
+  <data name="fraFeatureList.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="fraFeatureList.Text" xml:space="preserve">
+    <value>Features Detected</value>
+  </data>
+  <data name="&gt;&gt;fraFeatureList.Name" xml:space="preserve">
+    <value>fraFeatureList</value>
+  </data>
+  <data name="&gt;&gt;fraFeatureList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraFeatureList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fraFeatureList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtFeatureOrderNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="txtFeatureOrderNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 37</value>
+  </data>
+  <data name="txtFeatureOrderNum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txtFeatureOrderNum.MaxLength" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtFeatureOrderNum.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtFeatureOrderNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 26</value>
+  </data>
+  <data name="txtFeatureOrderNum.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtFeatureOrderNum.Name" xml:space="preserve">
+    <value>txtFeatureOrderNum</value>
+  </data>
+  <data name="&gt;&gt;txtFeatureOrderNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFeatureOrderNum.Parent" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;txtFeatureOrderNum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdFeatureIsValid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdFeatureIsValid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 83</value>
+  </data>
+  <data name="cmdFeatureIsValid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdFeatureIsValid.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdFeatureIsValid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 49</value>
+  </data>
+  <data name="cmdFeatureIsValid.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdFeatureIsValid.Text" xml:space="preserve">
+    <value>IsValid?</value>
+  </data>
+  <data name="&gt;&gt;cmdFeatureIsValid.Name" xml:space="preserve">
+    <value>cmdFeatureIsValid</value>
+  </data>
+  <data name="&gt;&gt;cmdFeatureIsValid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdFeatureIsValid.Parent" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;cmdFeatureIsValid.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdGetItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmdGetItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 169</value>
+  </data>
+  <data name="cmdGetItem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="cmdGetItem.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdGetItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 48</value>
+  </data>
+  <data name="cmdGetItem.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdGetItem.Text" xml:space="preserve">
+    <value>Get Data</value>
+  </data>
+  <data name="&gt;&gt;cmdGetItem.Name" xml:space="preserve">
+    <value>cmdGetItem</value>
+  </data>
+  <data name="&gt;&gt;cmdGetItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdGetItem.Parent" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;cmdGetItem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFeatureQuery.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblFeatureQuery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 40</value>
+  </data>
+  <data name="lblFeatureQuery.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblFeatureQuery.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblFeatureQuery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 25</value>
+  </data>
+  <data name="lblFeatureQuery.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblFeatureQuery.Text" xml:space="preserve">
+    <value>Order Number to Query:</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureQuery.Name" xml:space="preserve">
+    <value>lblFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureQuery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureQuery.Parent" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureQuery.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFeatureYesNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblFeatureYesNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 92</value>
+  </data>
+  <data name="lblFeatureYesNo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblFeatureYesNo.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblFeatureYesNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 32</value>
+  </data>
+  <data name="lblFeatureYesNo.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureYesNo.Name" xml:space="preserve">
+    <value>lblFeatureYesNo</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureYesNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureYesNo.Parent" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureYesNo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblFeatureData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblFeatureData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 258</value>
+  </data>
+  <data name="lblFeatureData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblFeatureData.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblFeatureData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 37</value>
+  </data>
+  <data name="lblFeatureData.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureData.Name" xml:space="preserve">
+    <value>lblFeatureData</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureData.Parent" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;lblFeatureData.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_lblListColumns_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblListColumns_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 234</value>
+  </data>
+  <data name="_lblListColumns_3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblListColumns_3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblListColumns_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="_lblListColumns_3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="_lblListColumns_3.Text" xml:space="preserve">
+    <value>Order #</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_3.Name" xml:space="preserve">
+    <value>_lblListColumns_3</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_3.Parent" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="_lblListColumns_4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblListColumns_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 232</value>
+  </data>
+  <data name="_lblListColumns_4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblListColumns_4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblListColumns_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="_lblListColumns_4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="_lblListColumns_4.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_4.Name" xml:space="preserve">
+    <value>_lblListColumns_4</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_4.Parent" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="_lblListColumns_5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="_lblListColumns_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 232</value>
+  </data>
+  <data name="_lblListColumns_5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="_lblListColumns_5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_lblListColumns_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="_lblListColumns_5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="_lblListColumns_5.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_5.Name" xml:space="preserve">
+    <value>_lblListColumns_5</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_5.Parent" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;_lblListColumns_5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="fraFeatureQuery.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="fraFeatureQuery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 14</value>
+  </data>
+  <data name="fraFeatureQuery.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="fraFeatureQuery.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="fraFeatureQuery.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="fraFeatureQuery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 318</value>
+  </data>
+  <data name="fraFeatureQuery.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="fraFeatureQuery.Text" xml:space="preserve">
+    <value>Feature Query</value>
+  </data>
+  <data name="&gt;&gt;fraFeatureQuery.Name" xml:space="preserve">
+    <value>fraFeatureQuery</value>
+  </data>
+  <data name="&gt;&gt;fraFeatureQuery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraFeatureQuery.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fraFeatureQuery.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>926, 494</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmFeatures</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

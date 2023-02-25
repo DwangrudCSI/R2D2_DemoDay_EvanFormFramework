@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C47465B-54EC-48D2-ACC3-DCDD9ED87374}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>R2D2_DemoDay_EvanFormFramework</RootNamespace>
+    <AssemblyName>R2D2_DemoDay_EvanFormFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="fsftpnet">
+      <HintPath>obj\Debug\fsftpnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FRRNSelect">
+      <HintPath>obj\Debug\Interop.FRRNSelect.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.FRRobot">
+      <HintPath>obj\Debug\Interop.FRRobot.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.FRRobotNeighborhood">
+      <HintPath>obj\Debug\Interop.FRRobotNeighborhood.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAlarms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlarms.designer.cs">
+      <DependentUpon>frmAlarms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCurPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCurPos.designer.cs">
+      <DependentUpon>frmCurPos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditAssoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditAssoc.designer.cs">
+      <DependentUpon>frmEditAssoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditNumReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditNumReg.designer.cs">
+      <DependentUpon>frmEditNumReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditPosition.designer.cs">
+      <DependentUpon>frmEditPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditStrReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditStrReg.designer.cs">
+      <DependentUpon>frmEditStrReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditVector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditVector.designer.cs">
+      <DependentUpon>frmEditVector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEvents.designer.cs">
+      <DependentUpon>frmEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFeatures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFeatures.designer.cs">
+      <DependentUpon>frmFeatures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFindVar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFindVar.designer.cs">
+      <DependentUpon>frmFindVar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFrames.designer.cs">
+      <DependentUpon>frmFrames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFRRobotDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFRRobotDemo.designer.cs">
+      <DependentUpon>frmFRRobotDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFTP.designer.cs">
+      <DependentUpon>frmFTP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIO.designer.cs">
+      <DependentUpon>frmIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIOConfigAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIOConfigAdd.designer.cs">
+      <DependentUpon>frmIOConfigAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNumReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNumReg.designer.cs">
+      <DependentUpon>frmNumReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPickPlace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPickPlace.designer.cs">
+      <DependentUpon>frmPickPlace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPosReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPosReg.designer.cs">
+      <DependentUpon>frmPosReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStrReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStrReg.designer.cs">
+      <DependentUpon>frmStrReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysVars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysVars.designer.cs">
+      <DependentUpon>frmSysVars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputBox.cs" />
+    <Compile Include="Library.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnect.designer.cs">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRRobotDemo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registry.cs" />
+    <EmbeddedResource Include="frmAlarms.resx">
+      <DependentUpon>frmAlarms.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnect.resx">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCurPos.resx">
+      <DependentUpon>frmCurPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditAssoc.resx">
+      <DependentUpon>frmEditAssoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditNumReg.resx">
+      <DependentUpon>frmEditNumReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditPosition.resx">
+      <DependentUpon>frmEditPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditStrReg.resx">
+      <DependentUpon>frmEditStrReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditVector.resx">
+      <DependentUpon>frmEditVector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEvents.resx">
+      <DependentUpon>frmEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFeatures.resx">
+      <DependentUpon>frmFeatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFindVar.resx">
+      <DependentUpon>frmFindVar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFrames.resx">
+      <DependentUpon>frmFrames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFRRobotDemo.resx">
+      <DependentUpon>frmFRRobotDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFTP.resx">
+      <DependentUpon>frmFTP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIO.resx">
+      <DependentUpon>frmIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOConfigAdd.resx">
+      <DependentUpon>frmIOConfigAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNumReg.resx">
+      <DependentUpon>frmNumReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPickPlace.resx">
+      <DependentUpon>frmPickPlace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPosReg.resx">
+      <DependentUpon>frmPosReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStrReg.resx">
+      <DependentUpon>frmStrReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysVars.resx">
+      <DependentUpon>frmSysVars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Properties\CS.png" />
+    <Content Include="Properties\CS_TRANSPARENT.png" />
+    <Content Include="Properties\CS_TRANSPARENT1.png" />
+    <Content Include="Properties\SQUARE_TRANSPARENT.png" />
+    <None Include="Resources\CS_Transparent_10-1.png" />
+    <None Include="Resources\CS_Transparent_9-1.png" />
+    <None Include="Resources\CS_Transparent_8-1.png" />
+    <None Include="Resources\CS_Transparent_7-1.png" />
+    <None Include="Resources\CS_Transparent_6-1.png" />
+    <None Include="Resources\CS_Transparent_5-1.png" />
+    <None Include="Resources\CS_Transparent_4-1.png" />
+    <None Include="Resources\CS_Transparent_3-1.png" />
+    <None Include="Resources\CS_Transparent_2-1.png" />
+    <None Include="Resources\CS_Transparent_1-1 %281%29.png" />
+    <None Include="Resources\CS_Transparent_1-1.png" />
+    <None Include="Resources\CS_TRANSPARENT_1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
