@@ -1,0 +1,6 @@
+# R2D2_DemoDay_EvanFormFramework
+Setting up C# code library for pairing with Fanuc robots
+
+In this example codebase mostly made up of components from Fanucs PCDK (PC Developers Kit), the team at Concept Systems wanted to see if we could implement some of the functionality into a generic application utilizing C# and a WinForm app to create a solid user application interface that uses modern programming language in conjunction with Apera AI's technology to create a pick place script for the demonstration. Concept Systems does a lot of custom interfaces using VB.Net, which is a deprecated coding language with a small userbase, so taking our existing knowledge we wanted to make a similar application in the 12+ hours we had to develop the system.
+
+This code was originally produced and written by Evan Gonnerman and Dylan Wangrud, while Aaron Burke and Ryan Nafziger programmed the LR mate 200 iD robot for the pick and place algorithm. Evan also wrote a pick place algorithm to test the custom interface with the ability to update registers, DI's and DO's, and create a moveable postion based pick algorithm which simply updates all of the registers to create a new configuration of bowling pins for the robot placement path.
